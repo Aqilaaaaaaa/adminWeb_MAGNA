@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function SideNav() {
+  
   return (
     <>
       <aside className="main-sidebar sidebar-dark-primary">
@@ -56,23 +57,7 @@ export default function SideNav() {
                 <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-copy" />
                   <p>
-                    Login / Register
-                  </p>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#" className="nav-link">
-                  <i className="nav-icon fas fa-edit" />
-                  <p>
-                    Edit User
-                  </p>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#" className="nav-link">
-                  <i className="nav-icon fas fa-chart-pie" />
-                  <p>
-                    Edit Password
+                    User
                   </p>
                 </a>
               </li>
@@ -80,7 +65,7 @@ export default function SideNav() {
               {/* Section management */}
               <li className="nav-header">SECTION MANAGEMENT</li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="./pages/banner" className="nav-link">
                   <i className="nav-icon fas fa-tree" />
                   <p>
                     Banner
@@ -88,7 +73,7 @@ export default function SideNav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="./pages/about.js" className="nav-link">
                   <i className="nav-icon fas fa-edit" />
                   <p>
                     About
@@ -96,7 +81,7 @@ export default function SideNav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="./pages/vision.js" className="nav-link">
                   <i className="nav-icon fas fa-table" />
                   <p>
                     Vision & Goal
@@ -104,7 +89,7 @@ export default function SideNav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="pages/gallery.html" className="nav-link">
+                <a href="./pages/portfolio.js" className="nav-link">
                   <i className="nav-icon far fa-image" />
                   <p>
                     Portfolio / Projects
@@ -112,7 +97,7 @@ export default function SideNav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="pages/kanban.html" className="nav-link">
+                <a href="./pages/services.js" className="nav-link">
                   <i className="nav-icon fas fa-columns" />
                   <p>
                     Services
@@ -134,6 +119,7 @@ export default function SideNav() {
                     Search
                   </p>
                 </a>
+
               </li>
             </ul>
           </nav>

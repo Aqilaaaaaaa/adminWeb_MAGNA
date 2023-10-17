@@ -1,7 +1,6 @@
-import './App.css';
-import Header from './components/Header';
-import SideNav from './components/SideNav';
-import Footer from './components/Footer';
+import Header from './parts/Header';
+import SideNav from './parts/SideNav';
+import Footer from './parts/Footer';
 
 function App() {
   return (

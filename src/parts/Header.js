@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default function Header() {
   return (
@@ -100,7 +102,7 @@ export default function Header() {
             </div>
           </li>
           {/* <!-- Notifications Dropdown Menu --> */}
-          <li classNameName="nav-item dropdown">
+          <li className="nav-item dropdown">
             <a className="nav-link" data-toggle="dropdown" href="#">
               <i className="far fa-bell"></i>
               <span className="badge badge-warning navbar-badge">15</span>
