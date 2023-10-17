@@ -1,13 +1,13 @@
-import Header from './parts/Header';
-import SideNav from './parts/SideNav';
-import Footer from './parts/Footer';
+import Header from './components/reusable/parts/Header';
+import SideNav from './components/reusable/parts/SideNav';
+// import Footer from './parts/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <SideNav/>
-      <Footer/>
+      <Header />
+      <SideNav />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -12267,6 +12267,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 
 .main-header .nav-link {
   height: 2.5rem;
+  /* background-color: blue; */
   position: relative;
 }
 
