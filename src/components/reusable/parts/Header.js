@@ -115,11 +115,6 @@ export default class Header extends Component {
           <a href="#" className="dropdown-item dropdown-footer">See All Notifications</a>
         </div>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" data-widget="control-sidebar" data-slide="true" href="#">
-          <i className="fas fa-th-large" />
-        </a>
-      </li>
     </ul>
   </nav>
 </div>

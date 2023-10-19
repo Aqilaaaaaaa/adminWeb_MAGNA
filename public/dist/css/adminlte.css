@@ -13618,6 +13618,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
   background-color: #3f474e;
   border: 1px solid #56606a;
   color: white;
+  
 }
 
 [class*="sidebar-dark"] .form-control-sidebar:focus,
