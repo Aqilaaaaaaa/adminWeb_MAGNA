@@ -4,7 +4,6 @@ const Dashboard = () => {
   return (
     <>
       <div className="content-wrapper">
-      {/* Content Header (Page header) */}
         <section className="content-header">
           <div className="container-fluid">
             <div className="row mb-2">
@@ -12,7 +11,7 @@ const Dashboard = () => {
                 <h1>Dashbord</h1>
               </div>
             </div>
-          </div>{/* /.container-fluid */}
+          </div>
         </section>
 
         {/* Main content */}
@@ -66,7 +65,7 @@ const Dashboard = () => {
                         <div className="card-body">
                           <div id="accordion">
                             <div className="card card-primary">
-                              <div className="card-header">
+                              <div className="card-header ">
                                 <h4 className="card-title w-100">
                                   <a className="d-block w-100" data-toggle="collapse" href="#collapseOne">
                                     Banner
@@ -74,7 +73,7 @@ const Dashboard = () => {
                                 </h4>
                               </div>
                               <div id="collapseOne" className="collapse show" data-parent="#accordion">
-                                <div className="card-body">
+                                <div className="card-body ">
                                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
                                   3
                                   wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
@@ -145,7 +144,7 @@ const Dashboard = () => {
                                   </a>
                                 </h4>
                               </div>
-                              <div id="collapseFour" className="collapse show" data-parent="#accordion">
+                              <div id="collapseFour" className="collapse" data-parent="#accordion">
                                 <div className="card-body">
                                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
                                   3
@@ -163,7 +162,6 @@ const Dashboard = () => {
                             </div>
                           </div>
                         </div>
-
                     </div>
                   </div>
                 </div>

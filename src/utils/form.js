@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Form = ({mainContent, title, title1, uname, email, pass, category, categoryLink, link1, link2, link3, file, desc }) => {
   return (

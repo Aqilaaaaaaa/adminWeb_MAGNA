@@ -1,6 +1,4 @@
-import React from 'react';
-import Form from 'utils/form';
-import Header from 'components/reusable/parts/Header';
+import AboutForm from "components/aboutForm";
 
 const About = () => {
   return (
@@ -23,8 +21,8 @@ const About = () => {
         </section>
         <section className="content">
           <div className="row">
-            <Form mainContent="About" title="Title" desc="Descripsion" />
-            <Form mainContent="Vision & Goal" title="Title" desc="Descripsion" category="Category"/>
+            <AboutForm mainContent="About" title="Title" desc="Descripsion" />
+            <AboutForm mainContent="Vision & Goal" title="Title" desc="Descripsion" category="Category"/>
           </div>
         </section>
       </div>

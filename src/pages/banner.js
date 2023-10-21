@@ -1,4 +1,4 @@
-import Form from 'utils/form'
+import BannerForm from "components/bannerForm"
 
 export default function banner() {
   return (
@@ -21,8 +21,8 @@ export default function banner() {
         </section>
         <section className="content">
           <div className="row">
-            <Form mainContent="Banner" title="Title" desc="Subtitle" file="Background Added"/>
-            <Form mainContent="Link Edit" categoryLink="Sosmed Link category" link1="Button Label" link2="Button URL" title="Label" title1="Isi url"/>
+            <BannerForm mainContent="Banner" title="Title" desc="Subtitle" file="Background Added"/>
+            <BannerForm mainContent="Link Edit" categoryLink="Sosmed Link category" link1="Button Label" link2="Button URL" title="Label" title1="Isi url"/>
           </div>
         </section>
       </div>

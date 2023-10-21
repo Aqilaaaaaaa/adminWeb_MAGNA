@@ -7,10 +7,13 @@ import Banner from 'pages/banner'
 import Portfolio from 'pages/portfolio';
 import Services from 'pages/services'
 import Contact from 'pages/contact';
+import Login from 'pages/login';
+import Register from 'pages/register';
 import Dashboard from 'pages/dashboard';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 
 // import Footer from './parts/Footer';
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
           <Header />
           <SideNav />
         <Routes>
+          <Route exact path='/login' element={<Login/>}/>
+          <Route exact path='/Register' element={<Register/>}/>
           <Route path='/' element={<Dashboard/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/banner' element={<Banner/>}/>
@@ -26,6 +31,7 @@ function App() {
           <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          
           {/* <Route path='/namapage' element={<page yang dituju/>}/> */}
       
         </Routes>

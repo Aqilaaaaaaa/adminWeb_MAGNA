@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Form from "utils/form";
+import ContactForm from "components/contacForm";
 
 const Contact = () => {
   return (
@@ -22,8 +22,8 @@ const Contact = () => {
       </section>
       <section className="content">
         <div className="row">
-          <Form mainContent="Contact Edit" title="Phone" email="Email" desc="Address" />
-          <Form mainContent="Link Edit" categoryLink="Sosmed Link Edit" link1="Instagram" link2="Whatsapp" title="Link"/>
+          <ContactForm mainContent="Contact Edit" title="Phone" email="Email" desc="Address" />
+          <ContactForm mainContent="Link Edit" categoryLink="Sosmed Link Edit" link1="Instagram" link2="Whatsapp" title="Link"/>
         </div>
       </section>
     </div>
