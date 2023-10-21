@@ -7,7 +7,7 @@
 export default function SideNav() {
   return (
     <>
-      <aside className="main-sidebar sidebar-dark-primary">
+      <aside className="main-sidebar sidebar-dark-primary" style={{height: 900}}>
         {/* Brand Logo */}
         <div className="brand-link">
           <img height={80} width={80} src="/dist/img/logo.png" alt="Logo" className="brand-image img-circle elevation-3" style={{ opacity: '.8' }} />
@@ -24,19 +24,6 @@ export default function SideNav() {
                 <button className="dropdown-item" type="button">Action</button>
                 <button className="dropdown-item" type="button">Another action</button>
                 <button className="dropdown-item" type="button">Something else here</button>
-              </div>
-              
-            </div>
-           
-            
-          </div>
-          <div className="form-inline">
-            <div className="input-group" data-widget="sidebar-search">
-              <input className="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search" />
-              <div className="input-group-append">
-                <button className="btn btn-sidebar">
-                  <i className="fas fa-search fa-fw" />
-                </button>
               </div>
             </div>
           </div>
@@ -114,11 +101,18 @@ export default function SideNav() {
                   </p>
                 </a>
               </li>
+              <li className="nav-item container">
+                <a href="/login" className="nav-link">
+                  <i className="nav-icon fa fa-sign-in-alt" />
+                  <p>
+                    Logout
+                  </p>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
       </aside>
-
     </>
   )
 }
