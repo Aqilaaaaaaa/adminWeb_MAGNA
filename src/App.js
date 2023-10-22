@@ -10,6 +10,7 @@ import Contact from 'pages/contact';
 import Login from 'pages/login';
 import Register from 'pages/register';
 import Dashboard from 'pages/dashboard';
+import Page404 from 'pages/page404';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 
 // import Footer from './parts/Footer';
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route exact path='/login' element={<Login/>}/>
           <Route exact path='/Register' element={<Register/>}/>
+          <Route exact path='*' element={<Page404/>}/>
           <Route path='/' element={<Dashboard/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/banner' element={<Banner/>}/>

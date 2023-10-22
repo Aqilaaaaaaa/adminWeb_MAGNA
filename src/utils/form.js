@@ -106,11 +106,11 @@ const Form = ({mainContent, title, title1, uname, email, pass, category, categor
                 :''}
             </div>
             <div className="row">
-            <div className="col-12">
-              <a href="#" className="btn btn-secondary">Cancel</a>
-              <button type="submit" class="btn btn-primary float-right">Submit</button>
+              <div className="col-12">
+                <a href="#" className="btn btn-secondary">Cancel</a>
+                <button type="submit" class="btn btn-primary float-right">Submit</button>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
