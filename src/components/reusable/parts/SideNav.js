@@ -51,7 +51,7 @@ export default function SideNav() {
                 </a>
               </li>
               <li className="nav-item container">
-                <a href="/user" className="nav-link">
+                <a href="/mainuser" className="nav-link">
                   <i className="nav-icon fas fa-copy" />
                   <p>
                     User

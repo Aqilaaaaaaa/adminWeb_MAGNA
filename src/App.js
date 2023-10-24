@@ -12,6 +12,7 @@ import Register from 'pages/register';
 import Dashboard from 'pages/dashboard';
 import Page404 from 'pages/page404';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
+import MainUser from 'pages/mainUser';
 
 // import Footer from './parts/Footer';
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/banner' element={<Banner/>}/>
           <Route path='/user' element={<User/>}/>
+          <Route path='/mainuser' element={<MainUser/>}/>
           <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/contact' element={<Contact/>}/>
