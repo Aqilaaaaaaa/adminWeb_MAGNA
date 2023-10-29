@@ -1,6 +1,6 @@
 import './index.css' 
 
-const userTable = ({title, namaLengkap, uname, email}) => {
+const userTable = ({title, no, namaLengkap, uname, email}) => {
   return (
     <>
       <div className="card card-info">
@@ -25,10 +25,10 @@ const userTable = ({title, namaLengkap, uname, email}) => {
             </thead>
             <tbody>
               <tr>
-                <td>1</td>
-                <td>Bakso Cuanki</td>
-                <td>yoursides</td>
-                <td>yoursides@pppmail.lite</td>
+                <td>{no}</td>
+                <td>{namaLengkap}</td>
+                <td>{uname}</td>
+                <td>{email}</td>
                 <td className="text-right py-0 align-middle">
                   <div className="btn-group btn-group-sm">
                     <a href="/user" className="btn btn-info"><i className="fas fa-eye" /></a>

@@ -20,7 +20,7 @@ const MainUser = () => {
           </div>
         </section>
         <div className="container">
-          <UserTable />
+          <UserTable no="1" namaLengkap="Bakso Cuanki" uname="yoursides" email="yoursides@pppmail.lite"/>
         </div>
       </div>
     </>
